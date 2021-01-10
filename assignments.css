@@ -4,9 +4,13 @@ body{
 
 }
 
-a{
+.menus{
     color:white;
+
+
 }
+
+
 h1{
     color:blue;
     font-family: sans-serif;
@@ -31,6 +35,7 @@ th{
 td{
     border: 1px solid darkblue;
     padding: 10px;
+    
 }
 
 .menu{
