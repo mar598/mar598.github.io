@@ -4,38 +4,28 @@
     <title>
         Marcos's Assignments
     </title>
-    <style type = "text/css">
-        h1{
-            color:blue;
-            font-family: sans-serif;
+    <link rel = "stylesheet" href = "assignments.css"/>
 
-        }
-
-        p{
-            color:darkblue;
-            font-family: monospace;
-
-        }
-        table{
-            border-collapse: collapse;
-        }
-        
-        th{
-            border: 1px solid darkblue;
-            padding: 10px;
-        }
-
-        td{
-            border: 1px solid darkblue;
-            padding: 10px;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Marcos's Assignments</h1>
-    <p>These are the assignments for the full stack app development class.</p>
-    <table>
+    <div class = "menu">
+        <div class = "menu-item"><a href = "index.html">Home</a></div>
+        <div class = "menu-item"><a href="mockwebsite.html">Mock Website</a></div>
+        <div class = "assignment-menu-item">Assignments
+            <div class = "dropdown">
+                <div class = "dropdown-item">Assignment 1</div>
+                <div class = "dropdown-item">Assignment 2</div>
+                <div class = "dropdown-item">Assignment 3</div>
+            </div>
+
+        </div>
+    
+    </div>
+    
+    <div class = "container">
+        <p>These are the assignments for the full stack app development class.</p>
+        <table>
         <thead>
             <tr>
                 <th>Assignment #</th> 
@@ -68,7 +58,11 @@
                 
             </tr>
         </tbody>
-    </table>
+        </table>
+    </div>
+
+
+    
 </body>
 
 </html>

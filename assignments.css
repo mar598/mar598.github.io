@@ -1,0 +1,100 @@
+body{
+
+    margin: 0px;
+
+}
+
+a{
+    color:white;
+}
+h1{
+    color:blue;
+    font-family: sans-serif;
+
+}
+
+p{
+    color:darkblue;
+    font-family: monospace;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: 1px solid darkblue;
+    padding: 10px;
+}
+
+td{
+    border: 1px solid darkblue;
+    padding: 10px;
+}
+
+.menu{
+    width: 100%;
+    background-color: indigo;
+    color:white;
+    font-family: sans-serif;
+    
+}
+
+.menu-item{
+    font: 22px;
+    padding:10px;
+    display:inline-block;
+
+}
+
+.assignment-menu-item{
+    font: 22px;
+    padding:10px;
+    display:inline-block;
+}
+
+.menu-item:hover{
+    background-color:darkblue;
+    cursor: pointer;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    display:block;
+}
+
+
+
+.outside{
+    height: 50px;
+    width: 200px;
+    position:relative;
+    top:0;
+    background-color: springgreen;
+
+}
+
+.dropdown{
+    display:none;
+}
+
+.assignment-menu-item:hover .dropdown{
+    height:100px;
+    width:112px;
+    position:absolute;
+    top:38px;
+    left: 192px;
+    background-color:darkgreen;
+    display:block;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.dropdown-item:hover{
+    background-color: lightgreen;
+
+}

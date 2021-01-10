@@ -6,25 +6,110 @@
     </title>
     <style type = "text/css">
 
-    h4{
+    h3{
         text-align: center;
     }
 
-    
+    a {
+        color:white;
+    }
+    .menu{
+            width: 100%;
+            background-color: indigo;
+            color:white;
+            font-family: sans-serif;
+            
+        }
+
+        
+        
+        .menu-item{
+            font: 22px;
+            padding:10px;
+            display:inline-block;
+        
+
+        }
+
+        .assignment-menu-item{
+            font: 22px;
+            padding:10px;
+            display:inline-block;
+        }
+
+        .menu-item:hover{
+            background-color:darkblue;
+            cursor: pointer;
+            
+
+        }
+
+        .container{
+            margin: 0 auto;
+            width: 1200px;
+            display:block;
+        }
+        
+
+
+        .outside{
+            height: 50px;
+            width: 200px;
+            position:relative;
+            top:0;
+            background-color: springgreen;
+        
+        }
+
+        .dropdown{
+            display:none;
+        }
+
+        .assignment-menu-item:hover .dropdown{
+            height:100px;
+            width:112px;
+            position:absolute;
+            top:38px;
+            left: 192px;
+            background-color:darkgreen;
+            display:block;
+            font-size: 16px;
+            text-align: center;
+
+        }
+
+        .dropdown-item:hover{
+            background-color: lightgreen;
+
+        }
+ 
     </style>
 </head>
 
 <body>
+    <div class = "menu">
+        <div class = "menu-item"><a href = "index.html">Home</a></div>
+        <div class = "menu-item"><a href="personalpage.html">Personal Page</a></div>
+        <div class = "assignment-menu-item">Assignments
+            <div class = "dropdown">
+                <div class = "dropdown-item">Assignment 1</div>
+                <div class = "dropdown-item">Assignment 2</div>
+                <div class = "dropdown-item">Assignment 3</div>
+            </div>
+
+        </div>
     
-    <h4> My name is Marcos Suliveres. This site was built by me using Github Pages, HTML, and CSS.</h4>
-    <h6>
-        Personal Page
-        <br>
+    </div>
+    
+    <h3> My name is Marcos Suliveres. This site was built by me using Github Pages, HTML, and CSS.</h4>
+    
+
+
 
 
 
     </h6>
-    <p> <a href = "writingsamples.html"> Writing Samples</a></p>
+    <!--<p> <a href = "writingsamples.html"> Writing Samples</a></p>-->
 </body>
 
 </html>
